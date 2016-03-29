@@ -28,7 +28,7 @@ void Preview::run(sc::PreviewReplyProxy const& reply) {
     ColumnLayout layout1col(1);
     std::vector<std::string> ids = { "image", "header", "summary", "tracks",
                                     "videos", "gallery_header", "gallerys", "reviews", "exp",
-                                     "review_input", "rating_input", "comment-input" };
+                                     "review_input", "rating_input", "inputId" };
 
     ColumnLayout layout2col(2);
     layout2col.add_column(ids);
